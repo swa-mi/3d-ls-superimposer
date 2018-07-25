@@ -1,0 +1,14 @@
+Best match is on: 
+test-files/20000_2mta_r3_r1_r1_r1_r2_r2_r2_r8.cliq.gpdb
+
+   20 r3   ARG H   7
+   19 r2   ARG H   7
+   18 r2   ARG H   7
+   12 r8   ALA H   4
+   11 r1   ALA H   4
+    7 r1   GLN H   3
+   17 r1   ARG H   7
+    8 r2   GLN H   3
+
+RMSD is: 
+0.00430943
