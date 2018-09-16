@@ -1,4 +1,4 @@
-# Superimposition code for cliques
+# Superimposition code for sets of points in 3d
 
 Performs 3d least square superimposition of two sets of points of equal size (in terms of number of points) by translation and rotation, in constant time. Uses Simon K Kearsley's algorithm<sup>1</sup> for the purpose.
 
@@ -23,4 +23,6 @@ To test, run`cat test-files/20000_2mta_r3_r1_r1_r1_r2_r2_r2_r8.cliq.cliq test-fi
 References:
 1. On the orthogonal transformation used for structural comparisons. Kearsley, S. K., Acta Crystallographica Section A , Volume 45 (2) – Feb 1, 1989. doi:10.1107/s0108767388010128
 
-Swastik Mishra, Parichit Sharma, Neelesh Soni
+Credits: Swastik Mishra, Parichit Sharma, Neelesh Soni
+
+PS: Ignore the terms 'clique' or 'star' used anywhere in here
