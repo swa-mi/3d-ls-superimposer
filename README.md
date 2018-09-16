@@ -18,9 +18,7 @@ The code in `AlignmentFunctions.cpp` and `Align_cliques.cpp` may be of use to so
 Requires boost libraries.
 
 Reads query from `--query-dir` argument, and superimposes that query set of points against targets in `--target-dir` argument
-To test
-    cat test-files/20000_2mta_r3_r1_r1_r1_r2_r2_r2_r8.cliq.cliq test-files/20_2mta_r3_r1_r1_r1_r2_r2_r2_r8.cliq| bin/superimposer.bin -q test-files -t test-files
-and compare the output against `test-files/expected_on20000.clique`
+To test, run`cat test-files/20000_2mta_r3_r1_r1_r1_r2_r2_r2_r8.cliq.cliq test-files/20_2mta_r3_r1_r1_r1_r2_r2_r2_r8.cliq| bin/superimposer.bin -q test-files -t test-files` and compare the output against `test-files/expected_on20000.clique`
 
 References:
 1. On the orthogonal transformation used for structural comparisons. Kearsley, S. K., Acta Crystallographica Section A , Volume 45 (2) – Feb 1, 1989. doi:10.1107/s0108767388010128
