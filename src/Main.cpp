@@ -84,6 +84,11 @@ int main(int argc, char** argv) {
 
 */        ;
 
+        //to check arguments list
+        //for (int count=0; count < argc; count ++){
+            //std::cout << count << " " << argv[count] << endl;
+        //}
+
         po::variables_map vm; 
         try 
         { 
@@ -174,6 +179,8 @@ int main(int argc, char** argv) {
         /* At this point query_clique is the first line of .cliq file
          and targetcliqs is vector<string> with the rest of the lines
         */
+        //cout << "query clique is " << query_clique << endl;
+        //cout << "target clique is "; vo.print_vector(targetcliqs); 
 
         /**if targetcliqs vector is empty, it means that no clique with same composition 
         was found in the database and hence, we should abort, giving this match a penalty for non-matching

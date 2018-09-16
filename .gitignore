@@ -1,0 +1,4 @@
+# ignore objects and archives
+*.[oa]
+# ignore .bin files, which are binary files
+*.bin
